@@ -7,6 +7,7 @@ export default function Home() {
     <div>
       <h3>CHARTJS TEST</h3>
       <App />
+      <ChartComponent />
     </div>
   )
 }
