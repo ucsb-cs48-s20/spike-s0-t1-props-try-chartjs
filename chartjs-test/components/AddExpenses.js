@@ -1,6 +1,7 @@
-import { render } from "react-dom";
+import GraphComponent from '../components/GraphComponent'
 
 class AddExpenses extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = { value: "" };
@@ -28,7 +29,7 @@ class AddExpenses extends React.Component {
             Enter Value of expense($)
             <br />
             <input
-              type="text"
+              type="number"
               value={this.state.value}
               onChange={this.handleChange}
             />
